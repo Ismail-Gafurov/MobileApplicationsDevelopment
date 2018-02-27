@@ -218,7 +218,7 @@ public class Logic
      *          the right triangle area
      */
     public static double rightTriangleArea(double base, double height){
-        return(1/2*base*height);
+        return(0.5*base*height);
     }
 
     /**
@@ -273,7 +273,7 @@ public class Logic
      *          the sphere volume
      */
     public static double sphereVolume(double radius) {
-        return((4/3)*Math.PI*radius*radius*radius);
+        return((4.0/3.0)*Math.PI*radius*radius*radius);
     }
 
     /**
